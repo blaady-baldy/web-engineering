@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            border: 2px solid black;
+            text-align: center;
+        }
+        input {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="/exp3.html" method="GET">
+        <label for="name">Name : </label>
+        <input type="text" id="name" name="name" placeholder="Enter Name : "><br>
+        <label for="password">Password : </label>
+        <input type="password" id="password" name="password" placeholder="Enter Password">
+        
+
+        <p>How do you describe yourself?</p>
+        <input type="radio" id="detials" name="details_about_user" value="Student">
+        <label for="html">Student</label><br>
+        <input type="radio" id="Faculty" name="details_about_user" value="Faculty">
+        <label for="Faculty">Faculty</label><br>
+        <input type="radio" id="Other" name="details_about_user" value="Other">
+        <label for="Other">Other</label>
+        <br><br>
+        <label for="cars">Mode of Commute:</label>
+        <select name="mode" id="mode">
+            <option value="Metro">Metro</option>
+            <option value="Bus">Bus</option>
+            <option value="Personal Vehicle">Personal Vehicle</option>
+        </select>
+        <br><br>
+        <label for="review">Review of Mode of Transportation:</label>
+        <textarea id="review" name="review" rows="4" cols="30">I commute to Maharaja Agrasen Institute of Technology via......
+        </textarea>
+        <br><br>
+        <input checked type="checkbox" name="acknowledged" id="acknowledged">
+        <label for="acknowledged">I hereby declare that the information provided is true</label><br>
+        
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
