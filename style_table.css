@@ -1,0 +1,22 @@
+tr:hover{
+    background-color: rgb(185, 219, 248);
+    /* border:0.5px solid rgb(253, 0, 0); */
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+td:hover{
+    background-color: rgb(183, 221, 255);
+    border: 1px solid red;
+    color: rgb(255, 0, 0);
+    text-align: right;
+    transition-delay: 0.05s;
+    font-weight: bold;
+}
+
+table{
+    border-style: dashed;
+    
+}

@@ -1,0 +1,29 @@
+input:hover{
+    background-color: rgb(197, 225, 248);
+    border: 0px solid rgb(69, 131, 224);
+}
+
+#name:hover,#password:hover {
+    height:30px;
+}
+
+form {
+    width:auto;
+    height:auto;
+    margin :auto;
+}
+
+.container{
+    margin:auto;
+    text-align: center;
+}
+
+input[type="radio"]:checked + label {
+    font-weight: bold;
+    background-color: rgb(226, 241, 255);
+}
+
+:checked + label {
+    font-weight: bold;
+    background-color: rgb(226, 241, 255);
+}
