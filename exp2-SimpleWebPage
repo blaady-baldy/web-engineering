@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+    <h1><img src="mait.jpg" alt="Black Goose logo" width="80px" style="display: flex;">Maharaja Agrasen Institute of Technology</h1>
+
+    <h1>Survey for Commute</h1>
+    <h2>Students</h2>
+    <p>The Surevey is conducted to figure how most of the Students
+        travel to reach Mait, Rohini. The college is located 6km away from 
+        Ritahala metro station so this survey is conducted to look at
+        the different ways the students commute.
+        </p>
+    <h2>Faculty</h2>
+    <p>The Surevey is conducted for <em>Faculty members</em> to understand
+    how they prefer to reach college on a daily basis.
+    This surevey is important to figure out how much each individual spends
+    on an average to reach campus</p>
+    <hr>
+    <ul>This survey is also importan to figure out how much parking space 
+        is required on the campus.
+    </ul>
+
+    <!-- This is the Github link for Devansh Singh -->
+
+
+    <p>For more details : </p>
+    <a href="https://github.com/blaady-baldy">Devansh Singh</a>
+  
+
+</body>
+</html>
