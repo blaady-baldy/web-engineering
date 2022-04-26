@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding="UTF-8"?>
+<info>
+   <name>Devansh Singh</name>
+   <college>Akriti</college>
+   <phone>(91) 9910607651</phone>
+   <address>
+      <block>C-2/11</block>
+      <locality>Yamuna Vihar</locality>
+      <state>Delhi</state>
+      <pincode>110053</pincode>
+   </address
+</info>
