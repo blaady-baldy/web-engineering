@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_table.css">
+    <title>Document</title>
+    <style>
+        td,th {
+            border : 0.5px solid rgb(185, 219, 248);
+            align-self: auto;
+            padding: 10px;
+            margin: 5px;
+        }
+        table {
+            
+            margin: auto;
+            margin-top: 30px;
+        }
+        tr {
+            padding: 0;
+            border: 0;
+        }
+        caption {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="0" cellpading="2px">
+        <tr>
+          <th>Date</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td id="dateNow"></td>
+          <td id="timeNow"></td>
+        </tr>
+          <caption align="bottom">Date and time</caption>
+      </table>
+      <script>
+
+        const n = new Date();
+        const date = n.toDateString();
+        const time = n.toLocaleTimeString();
+
+        console.log('Date: ' + date);
+        console.log('Time: ' + time);
+
+        dateNow = document.getElementById("dateNow");
+        timeNow = document.getElementById("timeNow");
+        
+        dateNow.innerHTML = date;
+        timeNow.innerHTML = time;
+        </script>
+</body>
+</html>
